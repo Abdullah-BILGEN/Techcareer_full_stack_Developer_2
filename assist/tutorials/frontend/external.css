@@ -1,0 +1,25 @@
+.paragraf_class{
+    border: 1px solid blue;
+    padding:10px 20px 30px 25px ;
+    padding: 20px 15px ;
+    text-indent: 30px; 
+    /* paragraf başlangıç boşluğu yapıyor  */
+    text-align: justify;
+    /* iki tarafa hizalıyor metni  */
+    text-shadow: 0.8px 3px blue ;
+    /* gölgelendirme yapar */
+    font-size: 25px;
+    /* yazıyı büyütür */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    /* kalınnlık*/
+    
+    /* derleyici yukarıdan aşağıyta çalıştığı için bir alt satırdaki kod bir süt satırdaki kodu override etmiş olur  */
+    
+    /* padding iç boşluk demektir */
+    /* margin dış boşluktur */
+    /* top YUKARI 
+    right SAĞ
+    left SOL
+    botton AŞAĞI */
+}
