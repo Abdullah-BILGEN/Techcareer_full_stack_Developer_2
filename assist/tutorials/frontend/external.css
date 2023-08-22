@@ -1,3 +1,11 @@
+*{ 
+    /* * hepsini kapsar */
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    /* h+b+p=200px */
+}
+
 .paragraf_class{
     border: 1px solid blue;
     padding:10px 20px 30px 25px ;
@@ -13,7 +21,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
     /* kalınnlık*/
-    
+    cursor: pointer;
+    /* üzerine gidildiğinde mause inleci seçme imlecine dömüşür */
+    width: 50%;
+    height: auto;
+
     /* derleyici yukarıdan aşağıyta çalıştığı için bir alt satırdaki kod bir süt satırdaki kodu override etmiş olur  */
     
     /* padding iç boşluk demektir */
@@ -22,4 +34,41 @@
     right SAĞ
     left SOL
     botton AŞAĞI */
+}
+a{
+    color: black;
+    color: #012;
+    color: #ab2af6;
+    color: rgb(0, 255, 3);
+    color: rgb(23, 121, 3);
+    color: rgba(212, 206, 23, 008);
+    background-color:rgb(0,26,255);
+    padding:10px auto;
+    margin:2rem .1rem;
+    border: radius 50px;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgba(212, 206, 23, 0.8);
+    color: rgb(0, 26, 255);
+    transition: 1s all;
+    
+}
+img{
+    width: 100%;
+    height: auto;
+
+
+
+}
+img:hover{
+    opacity: 0.8;
+}
+ul{
+    list-style-type: none;
+
 }
