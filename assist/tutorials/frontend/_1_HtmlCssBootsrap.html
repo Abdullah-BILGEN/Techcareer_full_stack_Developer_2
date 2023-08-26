@@ -25,9 +25,125 @@
     <link rel="stylesheet" href="external.css">
   </head>
 
-  <body>
+  <body class="container-fluid bg-dark text-white" style="color:white !important" >
+
+    
+    <!-- inlineCss>interalCss>ExternalCss -->
     <!-- BOOTSRAP -->
-    <br><br><br><br><br><br>
+
+    <br><br><br><br>
+    <hr>
+
+    <form class="form-inline">
+        <div class="form-group mb-2">
+          <label for="staticEmail2" class="sr-only">Email</label>
+          <input type="text" readonly class="form-control-plaintext text-white" id="staticEmail2" value="email@example.com">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+          <label for="inputPassword2" class="sr-only">Password</label>
+          <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+      </form>
+
+    <div class="container">
+        <div class="row">
+            <form action="" method="get">
+                <div class="form-group mb-2">
+                    <div class="col-md-2"> <span class="">Adı</span></div>
+                    <div class="col-md-10">
+                        <input type="text" placeholder="Adınız" required autofocus class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-2"> <span class="">Adı</span></div>
+                    <div class="col-md-10">
+                        <input type="text" placeholder="Adınız" required autofocus class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-2"> <span class="">Adı</span></div>
+                    <div class="col-md-10">
+                        <input type="text" placeholder="Adınız" required autofocus class="form-control">
+                    </div>
+                </div>
+                <button class="btn btn-primary mt-2">Submit</button>
+            </form>
+        </div>
+    </div>
+
+  
+
+  
+         
+
+    <table class="table table-hover table-striped table-dark table-sm">
+      <thead>
+        <tr>
+          <th>item1</th>
+          <th>item2</th>
+          <th>item3</th>
+          <th>item4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>item1</td>
+          <td>item1</td>
+          <td>item1</td>
+          <td>item1</td>
+        </tr>
+        <tr>
+          <td>item1</td>
+          <td>item1</td>
+          <td>item1</td>
+          <td>item1</td>
+        </tr>
+        <tr>
+          <td>item1</td>
+          <td>item1</td>
+          <td>item1</td>
+          <td>item1</td>
+        </tr>
+        <tr>
+          <td>item1</td>
+          <td>item1</td>
+          <td>item1</td>
+          <td>item1</td>
+        </tr>
+        <tr>
+          <td>item1</td>
+          <td>item1</td>
+          <td>item1</td>
+          <td>item1</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <img src="../../img/sunset-8170058_1280.jpg" class="img-fluid img-thumbnail rounded-circle"  alt="">
+    <div class="w-25 bg-primary p-2 text-light">width-25</div>
+    <div class="w-50 mt-2 bg-primary p-2 text-light">width-50</div>
+    <div class="w-75 mt-2 bg-primary p-2 text-light">width-75</div>
+    <div class="w-100 mt-2 bg-primary p-2 text-light">width-100</div>
+    <hr>
+<div style="height: 200px;">
+  
+  <div class="h-25 bg-danger mb-2">Height</div>
+ 
+  <div class="h-50  bg-warning mb-2">Height</div>
+  <div class="h-75  bg-danger mb-2">Height</div>
+
+
+ 
+
+
+</div>
+
+<br><br><br><br><br>
+
+
+
  <p class="h1">h1</p>
  <p class="h2">h2</p>
  <p class="h3">h3</p>
@@ -82,8 +198,8 @@
 <hr>
 <div class="d-grid gap-2">
   <button class="btn btn-primary ">1.Buton</button>
-  <button class="btn btn-primary me-5">1.Buton</button>
-  <button class="btn btn-primary me-5">1.Buton</button>
+  <button class="btn btn-primary me-5">2.Buton</button>
+  <button class="btn btn-primary me-5">3.Buton</button>
 </div>
 <hr>
 
@@ -95,6 +211,9 @@
 <p class="text start">Deneme</p>
 <p class="text-center">Deneme</p>
 <p class="text-end">Deneme</p>
+<p class="fw-bold"> Deneme</p>
+<p class="fst-italic"> Deneme</p>
+
 
 <br><br><br><br><br><br>
 <div id="carouselId" class="carousel slide" data-bs-ride="carousel">

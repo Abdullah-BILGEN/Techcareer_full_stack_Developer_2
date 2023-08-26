@@ -58,7 +58,7 @@ a:hover{
     transition: 1s all;
     
 } */
-img{
+/* img{
     width: 100%;
     height: auto;
 
@@ -67,7 +67,7 @@ img{
 }
 img:hover{
     opacity: 0.8;
-}
+} */
 ul{
     list-style-type: none;
 
