@@ -35,7 +35,7 @@
     left SOL
     botton AŞAĞI */
 }
-a{
+/* a{
     color: black;
     color: #012;
     color: #ab2af6;
@@ -57,7 +57,7 @@ a:hover{
     color: rgb(0, 26, 255);
     transition: 1s all;
     
-}
+} */
 img{
     width: 100%;
     height: auto;

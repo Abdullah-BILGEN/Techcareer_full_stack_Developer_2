@@ -31,17 +31,22 @@ h1{
     margin-top: 20%;
     border:1px solid rgba(255,255,255,0.4);
     padding:1rem;
-    -webkit-box-shadow: ;
+    -webkit-box-shadow:rgba (0,0,0,0.25)0px 14px 28px,rgba  ;
     box-shadow:rgba(0,0,0,0.25) 4px 14px 28px,rgba(255,255,255,0.22) 0px 10px 10px;
 }
 
+.form_data{
+    position: relative;
+}
 .icon_data{
-    position: absolute;
-    color: blue;
-    top: 4;
-    margin-left: 0.8rem ;
-    margin-top: 0.5rem;
+    color: blueviolet;
+    width: 2.5rem;
+    text-align: left;
+    padding: 1rem;
+    margin-top: -0.8rem;
     font-size: 1.3rem;
+    position: absolute;
+    top: 6px;
 }
 
 
