@@ -3,25 +3,94 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.container_data{
-    width: 100%;
+:root{
+    --template_bg_color:black;
+    --template_text_color:white;
+}
+html{
+    font-size: 15px;
+}
+
+body{
+    background-color: var(--template_bg_color);
+    color:var(--template_color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: relative;
-    margin-left: 30%;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin:1rem auto;
+}
+
+.container_data{
+    width: 95%;
+    position: relative;
+    margin-left: 2%;
     margin-top: 20%;
+    border:1px solid rgba(255,255,255,0.4);
+    padding:1rem;
+    -webkit-box-shadow: ;
+    box-shadow:rgba(0,0,0,0.25) 4px 14px 28px,rgba(255,255,255,0.22) 0px 10px 10px;
 }
-.form_data{
-    position: absolute;
-}
+
 .icon_data{
-    color: blueviolet;
-    width: 4rem;
-    text-align: left;
-    padding: 1rem;
-    margin-top: 0.8rem;
+    position: absolute;
+    color: blue;
+    top: 4;
+    margin-left: 0.8rem ;
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
 }
+
+
 .input_data{
-    width: 70%;
+    width: 82%;
     font-size: 1rem;
     text-align: center;
+}
+
+/* INPUT */
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    padding:.4rem;
+    margin-bottom:.6rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus{
+    background-color: var(--template_bg_color);
+    color: var(--template_color);
     
+}
+#button_group{
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+button[type="submit"],
+input[type="reset"]{
+    background: blue;
+    color: white;
+    padding: .5rem  1rem .4rem 1rem ;
+    border-radius: 10%;
+    margin-right: 0.8rem;
+    width: 39%;
+    transition: 2s ease-in-out;
+
+}
+button[type="submit"]:hover,
+input[type="reset"]:hover{
+
+    box-shadow: 1px 1px 4px .5px rgba(255,255,255,0.8);
+    transition: 2sn all;
+    background: white;
+    color: blue;
 }
