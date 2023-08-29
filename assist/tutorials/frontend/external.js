@@ -38,8 +38,8 @@
 // var _$degiskenAdi55={};  OBJE
 
 // Hoisting
-carName="Audi";
-var carName;
+// carName="Audi";
+// var carName;
 
 ////////////////////////////////////////////////
 
@@ -56,25 +56,74 @@ var carName;
 //Operatörler
 // + _ * / % ++ --
 // &&=VE ||== VEYA  ! Değil
-let number1=12;
-let number2=5;
+// let number1=12;
+// let number2=5;
 
-console.log(number1+number2);
-console.log(number1-number2);
-console.log(number1*number2);
-console.log(number1/number2);
-console.log(number1%number2);
+// console.log(number1+number2);
+// console.log(number1-number2);
+// console.log(number1*number2);
+// console.log(number1/number2);
+// console.log(number1%number2);
 
 // = ATAMA
 // == (Türüne Bakmadan)
 // === (Türüne Bakarak)
 //////////////////////////////////////////////////////
-let userName=Number(prompt("Lütfen Sayı giriniz"));
-console.log(userName);
+// let userName=Number(prompt("Lütfen Sayı giriniz"));
+// console.log(userName);
 
 ///////////////////////////////////////////////////////
 
-// Nan
+// Nan: Not A Number
+console.log(3/4);
+console.log(3/asd);
 // infinity
+console.log(0/5);
+console.log(5/0);
+
+//undefined  DEĞER ATANMAMIŞ DEĞİŞKEN 
+let data;
+console.log(data);
 // new
 // nul
+
+//////////////////////////////////////////////////////
+
+
+
+// Math 
+console.log(Math.PI);
+console.log(Math.E);
+console.log(Math.sqrt(25)); Karesi
+console.log(Math.abs()-25); Mutlak Değer
+console.log(Math.pow(6,2)); 5 üssü 2
+console.log(Math.floor(5.9)); Asağı yuvarlama 
+console.log(Math.round(3.4)); 5 in asagısında ise asağı yuvarlar
+console.log(Math.round(3.6)); 5 in yukarısında ise yukarı yuvarlar
+console.log(Math.min(3,445,789,56567)); en küçüğü verir 
+console.log(Math.max(3,44,56)); en büyüğü veriri
+console.log(Math.sin(45)); sin
+console.log(Math.asin(1));
+console.log(Math.floor(Math.random()*9+1)); kusuratsız random sayı verir
+
+
+
+
+
+///////////////////////////////////////////////////////
+
+// string
+
+//////////////////////////////////////////////////////
+
+// Function
+
+
+///////////////////////////////////////////////////////
+
+// conditional
+
+//////////////////////////////////////////////////////
+
+// Loop
+// break return continue
