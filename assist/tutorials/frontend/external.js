@@ -181,6 +181,30 @@ Formül: (derece*9/5)+32
 
 // string
 
+let vocabulary =" JavaScript öğreniyorum JavaScript ";
+console.log(vocabulary.length);
+// Boşlukları tıraşlar
+console.log(vocabulary.trim().length);
+
+console.log(vocabulary.toLowerCase());
+console.log(vocabulary.toUpperCaseCase());
+
+console.log(vocabulary.startsWith("J"));
+console.log(vocabulary.endsWith());
+
+console.log(vocabulary.charAt(0));
+console.log(vocabulary.indexOf("Javascript"));
+console.log(vocabulary.lastIndexOf("Javascript"));
+
+console.log(vocabulary.substring(1));
+console.log(vocabulary.substring(0,3));  //0<=x<=3-1
+
+vocabulary=vocabulary.concat("sona ekle");
+console.log(vocabulary);
+
+ocabulary=vocabulary.replace("yerini değiştir");
+console.log(vocabulary); 
+
 //////////////////////////////////////////////////////
 
 // Function
@@ -194,3 +218,15 @@ Formül: (derece*9/5)+32
 
 // Loop
 // break return continue
+
+/////////////////////////////////////////////////////////
+
+// Dizi
+
+//////////////////////////////////////////////////////////
+
+// Object
+
+////////////////////////////////////////////////////////
+
+// callback, promise, asyn-await
