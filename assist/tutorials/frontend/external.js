@@ -75,15 +75,15 @@
 ///////////////////////////////////////////////////////
 
 // Nan: Not A Number
-console.log(3/4);
-console.log(3/asd);
+// console.log(3/4);
+// console.log(3/asd);
 // infinity
-console.log(0/5);
-console.log(5/0);
+// console.log(0/5);
+// console.log(5/0);
 
 //undefined  DEĞER ATANMAMIŞ DEĞİŞKEN 
-let data;
-console.log(data);
+// let data;
+// console.log(data);
 // new
 // nul
 
@@ -92,22 +92,89 @@ console.log(data);
 
 
 // Math 
-console.log(Math.PI);
-console.log(Math.E);
-console.log(Math.sqrt(25)); Karesi
-console.log(Math.abs()-25); Mutlak Değer
-console.log(Math.pow(6,2)); 5 üssü 2
-console.log(Math.floor(5.9)); Asağı yuvarlama 
-console.log(Math.round(3.4)); 5 in asagısında ise asağı yuvarlar
-console.log(Math.round(3.6)); 5 in yukarısında ise yukarı yuvarlar
-console.log(Math.min(3,445,789,56567)); en küçüğü verir 
-console.log(Math.max(3,44,56)); en büyüğü veriri
-console.log(Math.sin(45)); sin
-console.log(Math.asin(1));
-console.log(Math.floor(Math.random()*9+1)); kusuratsız random sayı verir
+// console.log(Math.PI);
+// console.log(Math.E);
+// console.log(Math.sqrt(25)); Karesi
+// console.log(Math.abs()-25); Mutlak Değer
+// console.log(Math.pow(6,2)); 5 üssü 2
+// console.log(Math.floor(5.9)); Asağı yuvarlama 
+// console.log(Math.round(3.4)); 5 in asagısında ise asağı yuvarlar
+// console.log(Math.round(3.6)); 5 in yukarısında ise yukarı yuvarlar
+// console.log(Math.min(3,445,789,56567)); en küçüğü verir 
+// console.log(Math.max(3,44,56)); en büyüğü veriri
+// console.log(Math.sin(45)); sin
+// console.log(Math.asin(1));
+// console.log(Math.floor(Math.random()*9+1)); kusuratsız random sayı verir
 
 
 
+
+
+//Örnek-1
+// Kullanıcı tarafından girilen  2 sayıyı toplayan JS kodu
+
+// let number1=Number(prompt("Toplanacak 1. Sayıyı giriniz"))
+// let number2=Number(prompt("Toplanacak 2. Sayıyı giriniz"))
+// console.log(number1+number2);
+
+
+//Örnek-2
+/* 
+Kullanıcıdan alınan dereceyi fahrenhyat'a çeviren JS kodu yazınız ?
+Formül: (derece*9/5)+32 
+*/
+// let derece=Number(prompt(" Dereceyi giriniz !!"))
+// console.log((derece*9/5)+32);
+// HOCANIN YAPMA YÖNTEMİ
+
+// let degree,fahrenhayt;
+// degree =Number(prompt(" Lütfen derece için sayı giriniz"));
+// fahrenhayt=((degree*9/5)+32);
+// console.log(degree+"derece = "+fahrenhayt+" Fahrenayt'tır. !!");
+
+// console.log(`${degree}derece ${fahrenhayt} fahrenayttır`);
+
+//Örnek-3
+// y=3x+4k ==>1.dereceden 2 bilinmeyenli denklem algoritması
+// Kullanıcı tarafından alınan x ve k değerlerini hesaplayan algoritma yazınız ?
+// let x=Number(prompt(" Lütfen bir x değeri belirtiniz !!"))
+// let k=Number(prompt(" Lütfen bir k değeri belirtiniz !!"))
+// console.log((3*x)+(4*k))
+
+// Örnek-4: Aşağıdaki örnekleri math ile çözelim ?
+
+
+// 1-mutlak değeri alsın 5.9
+// console.log(Math.abs(-5.9));
+
+// 2-yuvarlama yapsın  6.0
+// console.log(Math.round(-5.9));
+
+// 3-karesini alsın 36.00
+// console.log(Math.sqrt(-5.9));
+
+// 4-karekök alsın 6.0
+// console.log(Math.pow(-5.9,2));
+
+// 5-yuvarlama yapsın 6.0
+// console.log(Math.floor(-5.9));
+
+// 6-)çıkan sonucu 5 bölsün 6/5=1
+// console.log(Math.ceil(5.9)/5);
+
+// 7-) iki sayı arasından karşılaştırma yapsın en küçüğünü alsın
+// console.log(Math.min(1,5));
+
+// 8-) küçük sayı eğer tekse 3 eklesin çiftse 5 eklesin 
+// console.log(Math.min(1,5));
+// if(Math.min(1,5)%2==1){
+//     console.log(Math.min(1,5)+3);
+
+// }
+// else{
+//     console.log(Math.min(1,5)+5);
+
+// }
 
 
 ///////////////////////////////////////////////////////
