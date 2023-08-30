@@ -210,47 +210,128 @@ Formül: (derece*9/5)+32
 // Function
 // 1-ParamaetresizReturnsuz
 
-function parametrsizReturnsuz(){
-    console.log("parametresiz Returnsuz");
-    }
-    parametrsizReturnsuz();
+// function parametrsizReturnsuz(){
+//     console.log("parametresiz Returnsuz");
+//     }
+//     parametrsizReturnsuz();
 
 // 2- ParametreliReturnsuz
 
-function parametreliReturnsuz(Number) { console.log("parametreli Returnsuz"+Math.pow(Number,2));
-}
-parametreliReturnsuz(6);
+// function parametreliReturnsuz(Number) { console.log("parametreli Returnsuz"+Math.pow(Number,2));
+// }
+// parametreliReturnsuz(6);
 
 // 3- ParametresizReturnlu
-function parametresizReturnlu(){
-    return "Parametresiz Returnlu";
-}
-const data3=parametresizReturnlu();
-console.log(data3);
+// function parametresizReturnlu(){
+//     return "Parametresiz Returnlu";
+// }
+// const data3=parametresizReturnlu();
+// console.log(data3);
 
 
 // 4- ParametreliReturnlu
-function parametreliReturnlu(user){
-    return "Parametreli Returnlu :"+ user;
-}
-const data4=parametreliReturnlu("Java Öğreniyorum");
-console.log(data4);
+// function parametreliReturnlu(user){
+//     return "Parametreli Returnlu :"+ user;
+// }
+// const data4=parametreliReturnlu("Java Öğreniyorum");
+// console.log(data4);
 
 ///////////////////////////////////////////////////////
 
 //Normal Function
+// function normal(){
+// console.log("normal")
+// }
+// normal();
 
 //Anonymous Function
+// const anonymous= function(){
+//     console.log("anonymous")
+//     }
+//     anonymous();
+
 
 //Arrow Function
 
+// const arrow =() => {
+//     console.log("arrow")
+//     }
+//     arrow();
+
 ///////////////////////////////////////////////////////
 // conditional
+
+// let conditional = () =>{
+//     let number = 10;
+//     if(number >=5){
+//         console.log("Beşten Büyüktür");
+//     }
+//     else{
+//         console.log("Beşten Küçüktür");
+//     }
+
+//     let ternary = (number >= 5)?"5' ten büyüktür":"5'ten küçüktür"
+//     console.log(ternary);
+// }
+// conditional();
+
+
+let conditional2 = () =>{
+    let number = 1;
+    if(number == "1"){
+        console.log("Sayı 1 ");
+    }
+    else if(number === "2"){
+        console.log("Sayı 2 ");
+    }
+    else if(number === "3"){
+        console.log("Sayı 3 ");
+    }
+    else if(number === "4"){
+        console.log("Sayı 4");
+    }
+    else if(number === "5"){
+        console.log("Sayı 5 ");
+    }
+    else{
+        console.log("1<=x>=5 dışındadır");
+    }
+
+    switch (number) {
+        case 1:
+            console.log("Sayı 1")          
+            break;
+            
+            case 2:
+            console.log("Sayı 2")          
+            break;
+
+            case 4:
+            console.log("Sayı 3")          
+            break;
+
+            case 4:
+            console.log("Sayı 4")          
+            break;
+            
+            case 5:
+            console.log("Sayı 5")          
+            break;
+    
+        default:
+            console.log("1<=x>=5 dışındadır");
+            break;
+    }
+
+}
+conditional2();
 
 //////////////////////////////////////////////////////
 
 // Loop
 // break return continue
+// try-catch
+
 
 /////////////////////////////////////////////////////////
 
