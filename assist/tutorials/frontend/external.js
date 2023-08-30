@@ -476,45 +476,45 @@ Formül: (derece*9/5)+32
 // Dikkat: Bu algoritmayı Arrow Function ile yapalım.
 // (Clean code kuralları çercevesinde ) algoritma yapan program ?
 
-let examplesCommon = () => {
+// let examplesCommon = () => {
 
-    let commonSum = 0;
-    let oddSum = 0, oddCounter = 0, oddNumber = "";
-    let evenSum = 0, evenCounter = 0, evenNumber = "";
-    let user = Number(prompt("Lütfen sayı giriniz"));
+//     let commonSum = 0;
+//     let oddSum = 0, oddCounter = 0, oddNumber = "";
+//     let evenSum = 0, evenCounter = 0, evenNumber = "";
+//     let user = Number(prompt("Lütfen sayı giriniz"));
 
-    for (let i = 1; i <= user; i++) {
-        if (user == 44) {
-            console.log("Secret Key Çıkış yapılıyor");
-            break;
-        }
+//     for (let i = 1; i <= user; i++) {
+//         if (user == 44) {
+//             console.log("Secret Key Çıkış yapılıyor");
+//             break;
+//         }
 
-        if (user > 50) {
-            console.log("50 sayısının üstünü toplama yapma");
-            break;
-        }
+//         if (user > 50) {
+//             console.log("50 sayısının üstünü toplama yapma");
+//             break;
+//         }
 
-        if (i == 7) {
-            console.log("7 toplamaya dahil etmiyorum.");
-            continue;
-        }
+//         if (i == 7) {
+//             console.log("7 toplamaya dahil etmiyorum.");
+//             continue;
+//         }
 
-        // ÇİFT
-        if (i % 2 == 0) {
-            evenCounter++;
-            evenSum += i;
-            evenNumber = evenNumber + " " + i
-        } else {
+//         // ÇİFT
+//         if (i % 2 == 0) {
+//             evenCounter++;
+//             evenSum += i;
+//             evenNumber = evenNumber + " " + i
+//         } else {
 
-        }
-        commonSum += i;
-    } //end loop
-    console.log("Genel toplam: " + commonSum);
-    console.log("Çift toplam: " + evenSum);
-    console.log("Çift adet sayısı: " + evenCounter);
-    console.log("Çift sayılar: " + evenNumber);
-}
-examplesCommon()
+//         }
+//         commonSum += i;
+//     } //end loop
+//     console.log("Genel toplam: " + commonSum);
+//     console.log("Çift toplam: " + evenSum);
+//     console.log("Çift adet sayısı: " + evenCounter);
+//     console.log("Çift sayılar: " + evenNumber);
+// }
+// examplesCommon()
 
 ///////////////////////////////////////////////////////////////////////////////
 // ÖDEV
@@ -529,13 +529,13 @@ examplesCommon()
 // Dizi
 // let arrTuto = () => {
 //     let arr = [5, 3, 1, 2, 6, 7];
-//     arr[5] = 99;
+//     arr[5] = 99; //Diziye Eleman eklemek 5. eleman olarak 99 ekle 
 //     console.log(arr);
 //     console.log(arr[0]);
 //     console.log(arr[arr.length - 1]);
-    //console.log(arr.length);
+//     console.log(arr.length);
 
-//arrTuto();
+// arrTuto();
 
 // let arrFunctionRandom = () => {
 //     let temp = 0;
@@ -551,60 +551,60 @@ examplesCommon()
 //     let arr = arrFunctionRandom();
 //     console.log(arr);
 
-    // arr.push(44);
-    // arr.unshift(23);
-    // arr.pop();
-    // arr.shift();
-    // arr.sort().reverse();
+//     arr.push(44);
+//     arr.unshift(23);
+//     arr.pop(); // sondan eleman eksiltir
+//     arr.shift(); //baştan eleman eksiltir
+//     arr.sort().reverse(); // sort küçükten büyüğe // reverse büyükten küçüğe sıralar
 
-    // for (let i = 0; i < arr.length; i++) {
-    //     document.writeln(arr[i] + " ")
-    // }
+//     for (let i = 0; i < arr.length; i++) {
+//         document.writeln(arr[i] + " ")
+//     }
 
-    // document.writeln("<br/>")
-    // for (let temp in arr) {
-    //     document.writeln(temp);
-    // }
+//     document.writeln("<br/>")    
+//     for (let temp in arr) {
+//         document.writeln(temp);
+//     }
 
-    // document.writeln("<br/>")
-    // for (let temp of arr) {
-    //     document.writeln(temp);
-    // }
+//     document.writeln("<br/>")
+//     for (let temp of arr) {
+//         document.writeln(temp);
+//     }
 // }
-//arrNewFunction()
+// arrNewFunction()
 
 
 /////////////////////////////////////////////
 // Object
 
-// let objTuto = () => {
-//     let obje = {
-//         "name": "Hamit",
-//         "surname": "Mızrak",
-//         "fullName": function () {
-//             console.log(this.name + " " + this.surname);
-//         },
-//         "java": {
-//             "name": "JavaSe",
-//             "version": 21
-//         },
-//         "javaee": [],
-//     };
-//     console.log(obje.name.toUpperCase());
-//     console.log(obje.java.version);
-//     console.log(obje["java"]["version"]); //nested Object
-//     console.log(obje.fullName());
+let objTuto = () => {
+    let obje = {
+        "name": "Hamit",
+        "surname": "Mızrak",
+        "fullName": function () {
+            console.log(this.name + " " + this.surname);
+        },
+        "java": {
+            "name": "JavaSe",
+            "version": 21
+        },
+        "javaee": [],
+    };
+    console.log(obje.name.toUpperCase());
+    console.log(obje.java.version);
+    console.log(obje["java"]["version"]); //nested Object
+    console.log(obje.fullName());
 
-//     // Object Literal
-//     obje.isLogin = "true";
-//     console.log(obje.isLogin);
+    // Object Literal
+    obje.isLogin = "true";
+    console.log(obje.isLogin);
 
-//     // JSON.parse,stringfy
-//     const objectToString=JSON.stringify(obje);
-//     const javaData=JSON.parse(objectToString).java.name;
-//     console.log(javaData);
-// }
-// objTuto();
+    // JSON.parse,stringfy
+    const objectToString=JSON.stringify(obje);
+    const javaData=JSON.parse(objectToString).java.name;
+    console.log(javaData);
+}
+objTuto();
 
 /////////////////////////////////////////////
 // callback, promise, asyn-await
