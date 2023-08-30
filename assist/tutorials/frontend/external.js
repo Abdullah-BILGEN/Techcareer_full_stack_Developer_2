@@ -276,141 +276,335 @@ Formül: (derece*9/5)+32
 // conditional();
 
 
-let conditional2 = () =>{
-    let number = 1;
-    if(number == "1"){
-        console.log("Sayı 1 ");
-    }
-    else if(number === "2"){
-        console.log("Sayı 2 ");
-    }
-    else if(number === "3"){
-        console.log("Sayı 3 ");
-    }
-    else if(number === "4"){
-        console.log("Sayı 4");
-    }
-    else if(number === "5"){
-        console.log("Sayı 5 ");
-    }
-    else{
-        console.log("1<=x>=5 dışındadır");
-    }
+// let conditional2 = () =>{
+//     let number = 1;
+//     if(number == "1"){
+//         console.log("Sayı 1 ");
+//     }
+//     else if(number === "2"){
+//         console.log("Sayı 2 ");
+//     }
+//     else if(number === "3"){
+//         console.log("Sayı 3 ");
+//     }
+//     else if(number === "4"){
+//         console.log("Sayı 4");
+//     }
+//     else if(number === "5"){
+//         console.log("Sayı 5 ");
+//     }
+//     else{
+//         console.log("1<=x>=5 dışındadır");
+//     }
 
-    switch (number) {
-        case 1:
-            console.log("Sayı 1")          
-            break;
+//     switch (number) {
+//         case 1:
+//             console.log("Sayı 1")          
+//             break;
             
-            case 2:
-            console.log("Sayı 2")          
-            break;
+//             case 2:
+//             console.log("Sayı 2")          
+//             break;
 
-            case 4:
-            console.log("Sayı 3")          
-            break;
+//             case 4:
+//             console.log("Sayı 3")          
+//             break;
 
-            case 4:
-            console.log("Sayı 4")          
-            break;
+//             case 4:
+//             console.log("Sayı 4")          
+//             break;
             
-            case 5:
-            console.log("Sayı 5")          
-            break;
+//             case 5:
+//             console.log("Sayı 5")          
+//             break;
     
-        default:
-            console.log("1<=x>=5 dışındadır");
-            break;
-    }
+//         default:
+//             console.log("1<=x>=5 dışındadır");
+//             break;
+//     }
 
-}
-conditional2();
+// }
+// conditional2();
 
 // ÖDEV: 
 // Kullanıcı tarafından girilen bir sayının negatif mi, pozitif mi ? bunu yazan JS code yazınız.
-let value = Number(prompt("Bir Sayı giriniz !!"));
-function negativeOrPositive(number) {
-    result = number > 0 ? "Pozitif" : "Negatif";
-    return result;
-}
-console.log(negativeOrPositive(value));
+// let value = Number(prompt("Bir Sayı giriniz !!"));
+// function negativeOrPositive(number) {
+//     result = number > 0 ? "Pozitif" : "Negatif";
+//     return result;
+// }
+// console.log(negativeOrPositive(value));
 
 
 // Kullanıcı tarafından girilen bir sayının tek mi, çift mi olduğunu yazan JS code yazınız.
 
-let oddEvenCalculator = function () {
-    let number = prompt('Bir Sayı Giriniz');
-    if (number % 2 == 0) {// çift sayı
-        console.log(number + " Sayı iki ile bölümünden kalan 0 dır");
-    } else {
-        console.log(number + " Sayının iki ile bölümünden kalan değer mevcuttur");
-    }
-}
-oddEvenCalculator()
+// let oddEvenCalculator = function () {
+//     let number = prompt('Bir Sayı Giriniz');
+//     if (number % 2 == 0) {// çift sayı
+//         console.log(number + " Sayı iki ile bölümünden kalan 0 dır");
+//     } else {
+//         console.log(number + " Sayının iki ile bölümünden kalan değer mevcuttur");
+//     }
+// }
+// oddEvenCalculator()
 
 // HOCANIN YAPTIĞI
 
-let number = Number(prompt("Bir sayı giriniz"));
-let oddEvenCalculatorTenary = number % 2 == 0 ? "Çift" : "Tek";
-console.log(oddEvenCalculatorTenary);
+// let number = Number(prompt("Bir sayı giriniz"));
+// let oddEvenCalculatorTenary = number % 2 == 0 ? "Çift" : "Tek";
+// console.log(oddEvenCalculatorTenary);
 
 // Kullanıcıdan alınan sayıya göre Haftanın günlerini switch-case ile JS code yazınız?
 
-let day = Number(prompt("Bir gün giriniz"));
-let weeksDay = (day) => {
-    switch (day) {
-        case 1:
-            console.log("Pazartesi");
-            break;
+// let day = Number(prompt("Haftanın Kaçıncı gününü gösterelim"));
+// let weeksDay = (day) => {
+//     switch (day) {
+//         case 1:
+//             console.log("Haftanın 1. günü Pazartesi'dir");
+//             break;
 
-        case 2:
-            console.log("Salı");
-            break;
+//         case 2:
+//             console.log("SalHaftanın 2. günü Salı'dır");
+//             break;
 
-        case 3:
-            console.log("Çarşamba");
-            break;
+//         case 3:
+//             console.log("Haftanın 3. günü Çarşamba'dir");
+//             break;
 
-        case 4:
-            console.log("Perşembe");
-            break;
+//         case 4:
+//             console.log("PerşembHaftanın 4. günü Perşembe'dir");
+//             break;
 
-        case 5:
-            console.log("Cuma");
-            break;
+//         case 5:
+//             console.log("Haftanın 5. günü Cuma'dır");
+//             break;
 
-        case 6:
-            console.log("Cumartesi");
-            break;
+//         case 6:
+//             console.log("Haftanın 6. günü Cumartesi'dir");
+//             break;
 
-        case 7:
-            console.log("Pazar");
-            break;
+//         case 7:
+//             console.log("Haftanın 7. günü Pazar'dır");
+//             break;
 
 
-        default:
-            console.log("Değer belirtilen arakıkta değil");
-            break;
-    }
-}
+//         default:
+//             console.log("1 ile 7 arasında bir rakam giriniz !! (Bir hafta 7 gündür) ");
+//             break;
+//     }
+// }
 
-weeksDay(day);
+// weeksDay(day);
 
 //////////////////////////////////////////////////////
 
 // Loop
+
+// let loop =()=>{
+//     console.log(1+2+3+4+5+6+7+8+9+10);
+    // i++
+    // ++i
+    // i+=1;
+    // i=i+1;
+ // /////////////// FOR //////////////////////////
+    // let sum1 = 0
+    // for (let i = 1 ; i <= 10 ; i++ ) {
+    // sum1 = sum1 + i ; }
+    // // sum+=i; Yukarıdakinin aynsı 
+    // console.log("Toplam = "+ sum1)
+
+/////////////// WHİLE ///////////////////
+//     let sum2 = 0 ;
+//     let k = 1;
+//     while ( k <= 10 ) {
+//     sum2 += k ; k++; }
+//     console.log("Toplam 2 = "+ sum2)
+   
+//     /////////////// DO WHİLE ///////////////
+
+//     let sum3 = 0 ;
+//     let m = 1;
+//     do{
+//         sum3 += m ; m++; 
+//     }
+//     while ( m <= 10 )   
+//     console.log("Toplam 3 = "+ sum3)
+   
+// }
+// loop()
+
 // break return continue
+
+// Exception Handling
 // try-catch
 
+// let tryCatchFunction = () =>{
+
+//     try {
+//         alertx("Deneme 44")        
+//     } catch (err) {
+//         // console.eror("err");
+//         console.info("err.name");
+//         // console.log(err.message);
+//     }
+//     finally {
+//         console.log("db.close");
+//     }    
+//     console.log("Son Satır");
+//     throw " Hata Var";
+// }
+// tryCatchFunction();
 
 /////////////////////////////////////////////////////////
 
+// Break    : Döngünün çalışmaına izin verme 
+// return   : metotun çalışmasın izin verme
+// Continue : sadece bir seferlik o şartla çalışma
+
+// Break    : Döngünün çalışmaını durdurur 
+// return   : metotun çalışmasını durdurur 
+// Continue : sadece bir kerye mahsus durur sonra çalışmaya devam eder.
+
+// SORU 1<=userData<=50
+// 1 ile Kullanıcı tarafından alınan bitiş sayısına kadar toplama yapan Algoritma örneği
+// Örnek: 1<=user 1+2+3+...userdatası
+// secret-Key kullanıcı eğer 44 girerse hiç bir işlem yapmadan sistemden çıkış sağlansın onunda haricinde sürekli işlem yapsın
+// Eğer Bu sayılardan 7 sayıyı varsa bunu toplayama dahil etmesin (continue)
+// Bu sayının en fazla 50'e kadar toplama yapabilir (break)
+// bu sayılardan çift olanların kaç tane, sayıların kendisi ve toplamları nedir ?
+// bu sayılardan tek olanların kaç tane, sayıların kendisi ve toplamları nedir ?
+// Dikkat: Bu algoritmayı Arrow Function ile yapalım.
+// (Clean code kuralları çercevesinde ) algoritma yapan program ?
+
+let examplesCommon = () => {
+
+    let commonSum = 0;
+    let oddSum = 0, oddCounter = 0, oddNumber = "";
+    let evenSum = 0, evenCounter = 0, evenNumber = "";
+    let user = Number(prompt("Lütfen sayı giriniz"));
+
+    for (let i = 1; i <= user; i++) {
+        if (user == 44) {
+            console.log("Secret Key Çıkış yapılıyor");
+            break;
+        }
+
+        if (user > 50) {
+            console.log("50 sayısının üstünü toplama yapma");
+            break;
+        }
+
+        if (i == 7) {
+            console.log("7 toplamaya dahil etmiyorum.");
+            continue;
+        }
+
+        // ÇİFT
+        if (i % 2 == 0) {
+            evenCounter++;
+            evenSum += i;
+            evenNumber = evenNumber + " " + i
+        } else {
+
+        }
+        commonSum += i;
+    } //end loop
+    console.log("Genel toplam: " + commonSum);
+    console.log("Çift toplam: " + evenSum);
+    console.log("Çift adet sayısı: " + evenCounter);
+    console.log("Çift sayılar: " + evenNumber);
+}
+examplesCommon()
+
+///////////////////////////////////////////////////////////////////////////////
+// ÖDEV
+// kullanıcıdan aldığımız isim soyisim (boşluk var)
+// ilk karakter göstersin sonraki kelimeleri masking (maskeleme yapsın)
+// eğer kullanıcı isim ve soyisimi ilk karakteri küçük girmişse büyük olsun mutlaka
+// Hamit Mızrak
+// H**** MIZ***
+// ipucu: charAt, substring, indexOf, döngü, karar mekanizma
+
+/////////////////////////////////////////////
 // Dizi
+// let arrTuto = () => {
+//     let arr = [5, 3, 1, 2, 6, 7];
+//     arr[5] = 99;
+//     console.log(arr);
+//     console.log(arr[0]);
+//     console.log(arr[arr.length - 1]);
+    //console.log(arr.length);
 
-//////////////////////////////////////////////////////////
+//arrTuto();
 
+// let arrFunctionRandom = () => {
+//     let temp = 0;
+//     let dizi = [];
+//     for (let i = 0; i < 5; i++) {
+//         temp = Math.round(Math.random() * 9 + 1);
+//         dizi[i] = temp;
+//     }
+//     return dizi;
+// }
+
+// let arrNewFunction = () => {
+//     let arr = arrFunctionRandom();
+//     console.log(arr);
+
+    // arr.push(44);
+    // arr.unshift(23);
+    // arr.pop();
+    // arr.shift();
+    // arr.sort().reverse();
+
+    // for (let i = 0; i < arr.length; i++) {
+    //     document.writeln(arr[i] + " ")
+    // }
+
+    // document.writeln("<br/>")
+    // for (let temp in arr) {
+    //     document.writeln(temp);
+    // }
+
+    // document.writeln("<br/>")
+    // for (let temp of arr) {
+    //     document.writeln(temp);
+    // }
+// }
+//arrNewFunction()
+
+
+/////////////////////////////////////////////
 // Object
 
-////////////////////////////////////////////////////////
+// let objTuto = () => {
+//     let obje = {
+//         "name": "Hamit",
+//         "surname": "Mızrak",
+//         "fullName": function () {
+//             console.log(this.name + " " + this.surname);
+//         },
+//         "java": {
+//             "name": "JavaSe",
+//             "version": 21
+//         },
+//         "javaee": [],
+//     };
+//     console.log(obje.name.toUpperCase());
+//     console.log(obje.java.version);
+//     console.log(obje["java"]["version"]); //nested Object
+//     console.log(obje.fullName());
 
+//     // Object Literal
+//     obje.isLogin = "true";
+//     console.log(obje.isLogin);
+
+//     // JSON.parse,stringfy
+//     const objectToString=JSON.stringify(obje);
+//     const javaData=JSON.parse(objectToString).java.name;
+//     console.log(javaData);
+// }
+// objTuto();
+
+/////////////////////////////////////////////
 // callback, promise, asyn-await
