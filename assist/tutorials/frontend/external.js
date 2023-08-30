@@ -181,37 +181,70 @@ Formül: (derece*9/5)+32
 
 // string
 
-let vocabulary =" JavaScript öğreniyorum JavaScript ";
-console.log(vocabulary.length);
+// let vocabulary =" JavaScript öğreniyorum JavaScript ";
+// console.log(vocabulary.length);
 // Boşlukları tıraşlar
-console.log(vocabulary.trim().length);
+// console.log(vocabulary.trim().length);
 
-console.log(vocabulary.toLowerCase());
-console.log(vocabulary.toUpperCaseCase());
+// console.log(vocabulary.toLowerCase());
+// console.log(vocabulary.toUpperCaseCase());
 
-console.log(vocabulary.startsWith("J"));
-console.log(vocabulary.endsWith());
+// console.log(vocabulary.startsWith("J"));
+// console.log(vocabulary.endsWith());
 
-console.log(vocabulary.charAt(0));
-console.log(vocabulary.indexOf("Javascript"));
-console.log(vocabulary.lastIndexOf("Javascript"));
+// console.log(vocabulary.charAt(0));
+// console.log(vocabulary.indexOf("Javascript"));
+// console.log(vocabulary.lastIndexOf("Javascript"));
 
-console.log(vocabulary.substring(1));
-console.log(vocabulary.substring(0,3));  //0<=x<=3-1
+// console.log(vocabulary.substring(1));
+// console.log(vocabulary.substring(0,3));  //0<=x<=3-1
 
-vocabulary=vocabulary.concat("sona ekle");
-console.log(vocabulary);
+// vocabulary=vocabulary.concat("sona ekle");
+// console.log(vocabulary);
 
-ocabulary=vocabulary.replace("yerini değiştir");
-console.log(vocabulary); 
+// ocabulary=vocabulary.replace("yerini değiştir");
+// console.log(vocabulary); 
 
 //////////////////////////////////////////////////////
 
 // Function
+// 1-ParamaetresizReturnsuz
 
+function parametrsizReturnsuz(){
+    console.log("parametresiz Returnsuz");
+    }
+    parametrsizReturnsuz();
+
+// 2- ParametreliReturnsuz
+
+function parametreliReturnsuz(Number) { console.log("parametreli Returnsuz"+Math.pow(Number,2));
+}
+parametreliReturnsuz(6);
+
+// 3- ParametresizReturnlu
+function parametresizReturnlu(){
+    return "Parametresiz Returnlu";
+}
+const data3=parametresizReturnlu();
+console.log(data3);
+
+
+// 4- ParametreliReturnlu
+function parametreliReturnlu(user){
+    return "Parametreli Returnlu :"+ user;
+}
+const data4=parametreliReturnlu("Java Öğreniyorum");
+console.log(data4);
 
 ///////////////////////////////////////////////////////
 
+//Normal Function
+
+//Anonymous Function
+
+//Arrow Function
+
+///////////////////////////////////////////////////////
 // conditional
 
 //////////////////////////////////////////////////////
